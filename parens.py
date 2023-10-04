@@ -38,6 +38,7 @@ def test_paren_remove(s: str) -> str:
 
 if __name__ == '__main__':
     print("---parens---")
+    test_paren_remove("aaba")
     test_paren_remove("()()")
     test_paren_remove(")()")
     test_paren_remove(")()(")
